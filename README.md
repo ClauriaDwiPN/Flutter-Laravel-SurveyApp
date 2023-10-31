@@ -7,6 +7,29 @@ Mr. X merupakan Direktur Politeknik terbesar di Indonesia, yang memiliki tanggun
 Data hasil survey yang telah dilakukan sangat penting bagi Mr. X untuk mengambil langkah-langkah perbaikan. Dengan mengetahui permasalahan yang dihadapi oleh mahasiswa, Mr. X dapat membuat kebijakan dan program yang tepat untuk meningkatkan kualitas layanan pendidikan dan aspek pendukung di kampus.
 
 Aplikasi mobile survey kualitas pendidikan dan aspek pendukung di kampus dapat menjadi solusi bagi Mr. X untuk mengetahui hasil survey secara cepat dan mudah, dan meningkatkan efisiensi kerja Mr. X. Aplikasi ini dapat menampilkan data hasil survey seperti faktor-faktor yang dipermasalahkan, gender, negara asal, rata-rata umur responden, dan lain sebagainya. Aplikasi ini dapat dikembangkan dengan menggunakan framework Laravel untuk backend dan framework Flutter untuk frontend. Dengan menggunakan framework tersebut, aplikasi dapat dikembangkan dengan cepat dan mudah.
+## Feature Requirement
+1.	Total Pengisi Surver (Responden)
+Bagian ini berisikan informasi tentang jumlah total orang yang mengisi survei. Ini dapat menjadi angka tunggal yang ditampilkan di halaman. 
+2.	Jumlah faktor yang dipermasalahkan (per faktor) 
+Bagian ini menghitung berapa banyak factor yang telah dipermasalahkan dalam survei. Jumlah factor yang berbeda yang dipermasalahkan oleh responden dapat dihitung dan ditampilkan secara terpisah untuk masing-masing factor.
+3.	Jumlah responden berdasarkan gender 
+Bagian ini akan memberikan gambaran tentang seberapa seimbang perbandingan antara responden pria dan Wanita dalam survei. Diwujudkan dalam bentuk diagram lingkaran.
+4.	Jumlah responden berdasar negara asal 
+Bagian ini akan memberikan gambaran tentang asal negara responden. Jika survei anda internasional, dapat diwujudkan dalam pie chart yang menunjukkan besaran tiap negara responden.
+5.	Rata-rata umur responden total 
+Pada bagian ini akan memberikan rata-rata usia dari semua responden yang mengisi survei. Informasi ini bisa diwujudkan dalam bentuk rata-rata yang ditampilkan. 
+6.	Rata-rata IPK (GPA) responden total 
+Bagian ini akan menghitung dan ditampilkan sebagai angka rata-rata. 
+7.	Detil hasil survey per responden 
+Pada bagian ini merupakan halaman yang menampilkan hasil survey masing-masing responden. Pada halaman yang lain hasil survey yang telah diisikan akan ditampilkan sebuah detail jawaban-jawaban mereka dengan pop up.
+8.	Fitur 1-6 diwujudkan dalam satu halaman, fitur 7 diwujudkan pada halaman yang berbeda.
+Untuk fitur 1 sampai 6, dapat membuat satu halaman yang menampilkan semua informasi yang ada, seperti dashboard atau ringkasan survei. Sedangkan pada itur 7 dapat menjadi halaman terpisah yang memungkinkan pengguna untuk melihat hasil survey masing-masing responden. 
+9.	Data boleh dikonversi ke bentuk lain (contoh: JSON, database, xml, atau lainnya). 
+Data survey dapat disimpan dalam format yang berbeda seperti JSON, database, XML, atau format lainnya
+10.	Wajib melibatkan laravel-backend.
+11.	Nilai plus 5 untuk setiap fitur 2-4 (maksimal total +15) jika ditambahkan pie chart atau bubble chart di halaman aplikasi.
+Untuk fitur 2 hingga 4 dapat menambahkan visualisasi data dengan grafik lingkaran dihalaman aplikasi. Grafik ini akan membantu pengguna dengan cepat memahami data.
+
 
 ## Flowchart
 ![Flowchart_Kelompok3](https://github.com/edoaryah/Flutter-Laravel-SurveyApp/assets/114456394/e84b248e-33a9-4e0b-9025-32187b3715db)
